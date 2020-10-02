@@ -1,4 +1,4 @@
-# fg2020_abaw
+# FG-2020 Competition: Affective Behavior Analysis in-the-wild (ABAW)
 This repository is Robolab@UBD's submission for FG-2020 Competition: ABAW Track 2 Expression Challenge and contains the following:
 
 * data - contains the processed dataset with all the images in its respective folder according to its expressions (e.g 0 - neutral)

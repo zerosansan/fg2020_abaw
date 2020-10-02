@@ -15,5 +15,25 @@ This shows the overall workflow on how to use our scripts to generate prediction
 * `assembler.py` is run to generate NumPy files which are required for both training and testing. The NumPy files for training and validation can be placed in the folder of `baseline_model/features` while NumPy files for testing should be placed in a folder (i.e `baseline_model/features/abaw2020_affwild_test_set`)
 * `baseline_model.py` is used to train and test a model using the aff-wild2 dataset. This will also generate a prediction results file for all 222 tests.
 
+## Hardware
+* Operating System: Windows 10
+* CPU: Intel i7-9700
+* GPU: Nvidia RTX2070 8GB
+* RAM: 64GB DDR4
+
+## Installing packages
+Create a virtual environment with Python 3.7.6 64-bit and install the following packages with `pip install`: <br />
+* opencv-python
+* keras
+* tensorflow
+* matplotlib
+* cmake
+* dlib
+* tqdm
+* scikit-learn
+* imutils
+* iterative_stratification
+* tensorflow-gpu
+
 ## Acknowledgment
 The model used here is exactly based on [mayurmadnani](https://github.com/mayurmadnani/fer/blob/master/FER_CNN.ipynb)'s work. However, we have plans on extending his work to include a Landmark-net architecture to process facial landmark features to improve expression recognition accuracy.

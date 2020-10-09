@@ -4,7 +4,7 @@ This repository is Robolab@UBD's submission for FG-2020 Competition: ABAW Track 
 * data - contains the processed dataset with all the images in its respective folder according to its expressions (e.g 0 - neutral)
 * features - contains NumPy files of the dataset for model training and testing purposes.
 * model - contains trained model checkpoints and weights.
-* results - contains all 222 predictions submission generated after running the baseline model.
+* results - contains all 223 predictions submission generated after running the baseline model.
 * src - contains codes for the baseline model, dataset extraction, and assembling.
 
 ## Process workflow

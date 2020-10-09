@@ -37,4 +37,4 @@ Create a virtual environment with Python 3.7.6 64-bit and install the following 
 * tensorflow-gpu
 
 ## Acknowledgment
-The model used here is exactly based on [mayurmadnani](https://github.com/mayurmadnani/fer/blob/master/FER_CNN.ipynb)'s work. There are plans to extend his work by adding an landmark-net to take facial landmark information into consideration for improved expression recognition accuracy.
+The model used here is exactly based on [mayurmadnani](https://github.com/mayurmadnani/fer/blob/master/FER_CNN.ipynb)'s work. We would like to thank him for making his repository public and available for everyone to use.

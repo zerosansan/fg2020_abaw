@@ -1,5 +1,9 @@
 # FG-2020 Competition: Affective Behavior Analysis in-the-wild (ABAW)
-This repository is Robolab@UBD's submission for FG-2020 Competition: ABAW Track 2 Expression Challenge and contains the following:
+This repository is Robolab@UBD's submission for [FG-2020 Competition: ABAW Track 2 Expression Challenge](https://ibug.doc.ic.ac.uk/resources/fg-2020-competition-affective-behavior-analysis/). The model was ranked 8th out of 12 with a total score of 0.342 (Accuracy: 63%, F1-Score: 20%) in our first and only attempt. 
+
+If you have used this repository in any of your scientific work, please consider citing my work using this [BibTeX Citation](#bibtex-citation).
+
+The repository contains the following:
 
 * data - contains the processed dataset with all the images in its respective folder according to its expressions (e.g 0 - neutral)
 * features - contains NumPy files of the dataset for model training and testing purposes.
@@ -35,6 +39,17 @@ Create a virtual environment with Python 3.7.6 64-bit and install the following 
 * imutils
 * iterative_stratification
 * tensorflow-gpu
+
+## BibTeX Citation
+If you have used this repository in any of your scientific work, please consider citing my work:
+```
+@article{anas2020deep,
+  title={Deep convolutional neural network based facial expression recognition in the wild},
+  author={Anas, Hafiq and Rehman, Bacha and Ong, Wee Hong},
+  journal={arXiv preprint arXiv:2010.01301},
+  year={2020}
+}
+```
 
 ## Acknowledgment
 The model used here is exactly based on [mayurmadnani](https://github.com/mayurmadnani/fer/blob/master/FER_CNN.ipynb)'s work. We would like to thank him for making his repository public and available for everyone to use.

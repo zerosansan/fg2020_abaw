@@ -3,7 +3,15 @@ This repository is Robolab@UBD's submission for [FG-2020 Competition: ABAW Track
 
 If you have found this repository useful or have used this repository in any of your scientific work, please consider citing my work using this [BibTeX Citation](#bibtex-citation).
 
-The repository contains the following:
+# Table of contents
+* [Repository contents](#repository-contents)
+* [Installing packages](#installing-packages)
+* [Hardware](#hardware)
+* [Getting started](#getting-started)
+* [BibTeX Citation](#bibtex-citation)
+* [Acknowledgments](#acknowledgments)
+
+## Repository Contents
 
 * data - contains the processed dataset with all the images in its respective folder according to its expressions (e.g 0 - neutral)
 * features - contains NumPy files of the dataset for model training and testing purposes.
@@ -11,7 +19,7 @@ The repository contains the following:
 * results - contains all 223 predictions submission generated after running the baseline model.
 * src - contains codes for the baseline model, dataset extraction, and assembling.
 
-## Process workflow
+## Getting Started
 This shows the overall workflow on how to use our scripts to generate prediction results.
 
 1. Run `affwild2_extract.py` in the root folder of aff-wild2 dataset. This will generate the training/validation labeled images (`aff-wild2/labelled_image`) and test images (`aff-wild2/labelled_test_image`) labeled with dummy annotations.
@@ -51,5 +59,5 @@ If you have used this repository in any of your scientific work, please consider
 }
 ```
 
-## Acknowledgment
+## Acknowledgments
 The model used here is exactly based on [mayurmadnani](https://github.com/mayurmadnani/fer/blob/master/FER_CNN.ipynb)'s work. We would like to thank him for making his repository public and available for everyone to use.

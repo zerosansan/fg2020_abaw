@@ -14,11 +14,11 @@ The repository contains the following:
 ## Process workflow
 This shows the overall workflow on how to use our scripts to generate prediction results.
 
-* `affwild2_extract.py` is run in the root folder of the aff-wild2 dataset to generate training/validation labeled images in a folder named `aff-wild2/labelled_image`. Additionally, a test images folder will be generated (i.e `aff-wild2/labelled_test_image`) which will contain all test images labeled with dummy annotations.
-* The contents of the two generated folders (i.e `aff-wild2/labelled_image`, `aff-wild2_test/labelled_test_image`) should be placed in the `/data` folder in two separate folders (i.e `aff-wild2`, `aff-wild2_test` respectively).
-* `assembler.py` is run to generate NumPy files which are required for both training and testing. The NumPy files for training and validation can be placed in the folder of `/features` while NumPy files for testing should be placed in a folder (i.e `/features/abaw2020_affwild_test_set`)
-* `baseline_model.py` is used to train and test a model using the aff-wild2 dataset. This will also generate a prediction results file for all 223 tests.
-* `fix_missing_predictions.py` is run after prediction results are available, this is to add undetected face frames into the prediction files.
+1. Run `affwild2_extract.py` in the root folder of aff-wild2 dataset. This will generate the training/validation labeled images (`aff-wild2/labelled_image`) and test images (`aff-wild2/labelled_test_image`) labeled with dummy annotations.
+2. Place the contents of the two generated folders (i.e `aff-wild2/labelled_image`, `aff-wild2_test/labelled_test_image`) in the `/data` folder in two separate folders (i.e `aff-wild2`, `aff-wild2_test` respectively).
+3. Run `assembler.py` to generate NumPy files which are required for both training and testing. The NumPy files for training/validation can be placed in the folder of `/features` while NumPy files for testing should be placed in a folder (i.e `/features/abaw2020_affwild_test_set`)
+4. Run`baseline_model.py` to train and test a model using the aff-wild2 dataset. This will also generate a prediction results file for all 223 tests.
+5. Run `fix_missing_predictions.py` afterwards, this is to add undetected face frames into the prediction files.
 
 ## Hardware
 * Operating System: Windows 10

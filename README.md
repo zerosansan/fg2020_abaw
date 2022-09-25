@@ -1,7 +1,7 @@
 # FG-2020 Competition: Affective Behavior Analysis in-the-wild (ABAW)
 This repository is Robolab@UBD's submission for [FG-2020 Competition: ABAW Track 2 Expression Challenge](https://ibug.doc.ic.ac.uk/resources/fg-2020-competition-affective-behavior-analysis/). The model was ranked 8th out of 12 with a total score of 0.342 (Accuracy: 63%, F1-Score: 20%) in our first and only attempt. 
 
-If you have used this repository in any of your scientific work, please consider citing my work using this [BibTeX Citation](#bibtex-citation).
+If you have found this repository useful or have used this repository in any of your scientific work, please consider citing my work using this [BibTeX Citation](#bibtex-citation).
 
 The repository contains the following:
 
